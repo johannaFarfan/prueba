@@ -15,7 +15,7 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path, include
-from django.config import settings
+from django.conf import settings
 from django.config.url.static import static
 
 #from Prueba import views
